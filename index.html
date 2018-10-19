@@ -1,0 +1,62 @@
+<html>
+  <head>
+  <title>Voice Link Prototypes</title>
+  <link rel="stylesheet" href="voicelinks.css">
+  </head>
+
+  <body>
+<img src="text-screengrab.png" />
+<table>
+<tbody>
+<tr>
+
+<td><img src="speaker.png" width="30px" onclick="javascript:PlaySound('v1_no_links.wav');"/></td>
+<td>No link indicator</td>
+</tr>
+<tr>
+<td><img src="speaker.png" width="30px" onclick="javascript:PlaySound('v2_whisper.wav');"/></td>
+<td>Whisper</td>
+</tr>
+<tr>
+<td><img src="speaker.png" width="30px" onclick="javascript:PlaySound('v3_pause.wav');"/></td>
+<td>Pause <br><small>(1 second before link text, 0.5 seconds after link text)</small></td>
+</tr>
+<tr>
+<td><img src="speaker.png" width="30px" onclick="javascript:PlaySound('v4_louder.wav');"/></td>
+<td>Volume change <br><small>(link is louder)</small></td>
+</tr>
+<tr>
+<td><img src="speaker.png" width="30px" onclick="javascript:PlaySound('v5_strong.wav');"/></td>
+<td>Emphasis <br><small>(strong = louder + slower)</small></td>
+</tr>
+<tr>
+  <td><img src="speaker.png" width="30px" onclick="javascript:PlaySound('v6_highpitch.wav');"/></td>
+  <td>Pitch change <br><small>(higher)</small></td>
+</tr>
+<tr>
+  <td><img src="speaker.png" width="30px" onclick="javascript:PlaySound('v7_lowpitch.wav');"/></td>
+  <td>Pitch change <br><small>(lower)</small></td>
+</tr>
+<tr>
+  <td><img src="speaker.png" width="30px" onclick="javascript:PlaySound('v8_link.wav');"/></td>
+  <td>Indicator word before link</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+
+<script type="text/javascript">
+
+function PlaySound(path) {
+  var audioElement = document.createElement('audio');
+  audioElement.setAttribute('src', path);
+  audioElement.play();
+}
+
+</script>
+
+  </body>
+  </html>
