@@ -3,8 +3,15 @@ table {
   font-size: 12px;
   padding: 10px;
   border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
+
 
 th, td{
   padding: 5px;
+}
+
+#credits{
+  font-family: Arial;
+  font-size: 10px;
 }
