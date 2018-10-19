@@ -1,0 +1,10 @@
+table {
+  font-family: Arial;
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+th, td{
+  padding: 5px;
+}

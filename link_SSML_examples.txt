@@ -1,0 +1,35 @@
+v1_no_links.wav:
+
+<speak>
+    As the spectators gathered in the shadow stared up at the sun, now nothing more than a sparkling white ring against a mulberry sky, they marveled at the sight.
+</speak>
+
+v2_whisper.wav:
+
+<speak>
+    As the spectators <amazon:effect name="whispered">gathered in the shadow</amazon:effect> stared up at the sun, now nothing more than a sparkling white ring against a mulberry sky, they marveled at the sight.
+</speak>
+
+v3_pause.wav
+(1 second pause before/0.5 second pause after link text)
+
+<speak>
+    As the spectators <break time="1s"/> gathered in the shadow<break time="0.5s"/> stared up at the sun, now nothing more than a <break time="1s"/>sparkling white ring against a mulberry sky<break time="0.5s"/>, they marveled at the sight.
+</speak>
+
+v4_louder.wav
+
+<speak>
+    <prosody volume="soft">As the spectators</prosody> <prosody volume="x-loud">gathered in the shadow</prosody> <prosody volume="soft">stared up at the sun, now nothing more than a</prosody> <prosody volume="x-loud">sparkling white ring against a mulberry sky</prosody>, <prosody volume="soft">they marveled at the sight</prosody>.
+</speak>
+
+v5_strong.wav
+<speak>
+    As the spectators <emphasis level="strong">gathered in the shadow</emphasis> stared up at the sun, now nothing more than a <emphasis level="strong">sparkling white ring against a mulberry sky</emphasis> , they marveled at the sight.
+</speak>
+
+v6_highpitch.wava
+
+<speak>
+    As the spectators <prosody pitch="x-high">gathered in the shadow</prosody> stared up at the sun, now nothing more than a <prosody pitch="x-high">sparkling white ring against a mulberry sky</prosody> , they marveled at the sight.
+</speak>
